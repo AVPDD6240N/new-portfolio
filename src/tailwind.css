@@ -1,0 +1,5 @@
+/* Tailwind v4 utilities and tokens, intentionally without Preflight reset.
+   Preserves the exact approved V3 public-site spacing, typography and controls. */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
